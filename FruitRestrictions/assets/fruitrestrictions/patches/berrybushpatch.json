@@ -1,0 +1,497 @@
+[
+	{
+		"file": "game:blocktypes/plant/bigberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"whitecurrant": { "minZ": 100,"maxZ": 200, "minX": 500, "maxX": 1000 },
+			"redcurrant": { "minZ": 100,"maxZ": 200, "minX": 500, "maxX": 1000 },
+			"blackcurrant": { "minZ": 100,"maxZ": 200, "minX": 500, "maxX": 1000 }
+		}
+	},
+	{
+		"file": "game:blocktypes/plant/smallberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"blueberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"cranberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 }
+		}
+	},
+	{
+		"file": "floralzonesmediterraneanregion:blocktypes/plant/grape-cultivated.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"vitisvinifera-blue": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+			"vitisvinifera-purple": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+			"vitisvinifera-red": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+			"vitisvinifera-black": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+			"vitisvinifera-yellow": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+			"vitisvinifera-green": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+			"vitisvinifera-white": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "floralzonesmediterraneanregion"
+			}
+		]
+	},
+		{
+		"file": "floralzonesmediterraneanregion:blocktypes/plant/grape.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"vitisvinifera": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "floralzonesmediterraneanregion"
+			}
+		]
+	},
+	{
+		"file": "floralzonesmediterraneanregion:blocktypes/plant/caperbush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"capparisspinosa": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "floralzonesmediterraneanregion"
+			}
+		]
+	},
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/plant/bigberrybushes.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"juniperuscommunis": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "floralzonescosmopolitanregion"
+			}
+		]
+	},
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/plant/papayafruiting.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"caricapapaya": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "floralzonescosmopolitanregion"
+			}
+		]
+	},
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/plant/gourd.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"cucurbitaficifolia": { "minZ": 150, "maxZ": 400, "minX": 400, "maxX": 1500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "floralzonescosmopolitanregion"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/bottomberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"juniper": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"hazel": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lillypillypink": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lillypillyblue": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lillypillywhite": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"blackelder": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"pilo": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/berrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"huckleberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"hazel": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"wolfberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"snowberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"honeysuckle": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"spindle": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"blackelder": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"swamphuckle": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"feijoa": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"beautyberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kumquat": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"sumac": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"dwarfpine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"juniper": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"pistachio": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kawakawa": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lillypillywhite": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lillypillypink": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lillypillyblue": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"midyimberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"seamango": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"mingimingi": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"pilo": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"marita": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"josta": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"bladdernut": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/toppricklybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"gooseberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"raspberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"loganberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"blueraspberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"brambleberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"dogrose": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"beachrose": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/toppricklybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"blossomquince": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/pricklyshortbush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"dewberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"bushlawyer": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"caper": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"pricklyheath": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"numnum": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/pricklyberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"blossomquince": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"sloe": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"brambleberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"boysenberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"raspberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"loganberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"blueraspberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"dogrose": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"beachrose": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"gooseberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"deserthackberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"fingerlime": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"sallowthorn": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/shortberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"bearberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"bilberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"flaxlily": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"ugni": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"munthari": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"bluetongue": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/topberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"kumquat": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"sumac": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"huckleberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"swamphuckle": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"mingimingi": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"baneberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"fractureberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"turkscap": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"oldmansaltbush": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"pokeberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"elderberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"blacknightshade": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"bitternightshade": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"tomato": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"oxheart": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"romatomato": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"wildtomato": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"falsetomato": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"naranjilla": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"hairyeggplant": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"eggplant": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"belladonna": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"husktomato": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"newhusktomato": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"tomatillo": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"jalapeno": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"cayenne": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"habanero": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"tabasco": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"redbellpepper": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"orangebellpepper": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"yellowbellpepper": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"greenbellpepper": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 }
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/fruitvine/fruitvine.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"woodbine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kolomikta": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"cucumber": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"granadilla": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"passionfruit": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"hairyappleberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"purpleappleberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"bryony": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"blackgrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"redgrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"whitegrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"foxgrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"virgingrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kiwi": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"ivy": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/fruitvine/bottomfruitvine.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"virgingrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"passionfruit": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"granadilla": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kiwi": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kolomikta": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/fruitvine/bottomtreevine.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"blackgrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"redgrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"whitegrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"foxgrape": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"ivy": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/cropvine/mirzamelon.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"vine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/cropvine/muskmelon.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"vine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/cropvine/watermlon.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"vine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/cropvine/honeydewmelon.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"vine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/groundberryseedling.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"creepingpine": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"crowseye": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"kakaha": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"gardenstrawberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"greenstrawberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"strawberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"falsestrawberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"cloudberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"knyazberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"rubysaltbush": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"bunchberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"cheeseberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"pineheath": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"honeypots": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"crowberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"lingonberry": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+			"coralbead": { "minZ": 200, "maxZ": 300, "minX": 600, "maxX": 2000 },
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+	{
+		"file": "wildcraftfruit:blocktypes/plant/berry/growth.json",
+		"op": "add",
+		"path": "/attributes/latlongrestriction",
+		"value": {
+			"blackcurrant": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"gooseberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"brambleberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"boysenberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"loganberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"dogrose": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"beachrose": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"sallowthorn": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"deserthackberry": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"spindle": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"feijoa": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"kumquat": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"pistachio": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"dwarfpine": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"juniper": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"sumac": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"seamango": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"fingerlime": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"lillypillypink": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"lillypillyblue": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"lillypillywhite": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"pilo": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"mingimingi": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"marita": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"blackelder": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"hazel": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"sloe": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"swamphuckle": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"josta": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"blossomquince": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 },
+			"bladdernut": { "minX": 300, "maxX": 500, "minZ": 300, "maxZ": 500 }
+		},
+		"dependsOn": [
+			{
+				"modid": "wildcraftfruit"
+			}
+		]
+	},
+
+]
