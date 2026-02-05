@@ -6,7 +6,7 @@
     "authors": [
         "501warhead"
     ],
-    "description": "To be added",
+    "description": "Adds latitude and longitude restrictions to fruit trees and bushes",
     "version": "1.0.0",
     "dependencies": {
         "game": "1.21.0"
