@@ -15,7 +15,6 @@ namespace FruitRestrictions.src
         // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
-            Mod.Logger.Notification("Hello from template mod: " + api.Side);
             harmony = new Harmony(Mod.Info.ModID);
             harmony.PatchAll();
 

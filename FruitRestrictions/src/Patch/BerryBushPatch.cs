@@ -50,7 +50,7 @@ namespace FruitRestrictions.src.Patch
 
             var variants = __instance.Block.Variant;
             string variant = variants["type"];
-            __instance.Api.Logger.Notification($"Beginning berry check on variant {variant}");
+            //__instance.Api.Logger.Notification($"Beginning berry check on variant {variant}");
             JsonObject? restrictions = __instance.Block?.Attributes?[$"latlongrestriction"];
             if (restrictions == null) return true;
             if (variant.Equals("vitisvinifera") && variants["cultivated"].Equals("cultivated"))

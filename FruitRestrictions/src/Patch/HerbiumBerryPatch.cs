@@ -53,7 +53,7 @@ namespace FruitRestrictions.src.Patch
 
             bool withinX = (minX <= posX && posX <= maxX);
             bool withinZ = (minZ <= posZ && posZ <= maxZ);
-            __instance.Api.Logger.Notification($"Checking herbium berry plant {variant} at {pos.X}, {pos.Y}, {pos.Z} against restrictions (x: {minX} - {maxX}, z: {minZ} - {maxZ}) - withinX: {withinX}, withinZ: {withinZ}");
+            //__instance.Api.Logger.Notification($"Checking herbium berry plant {variant} at {pos.X}, {pos.Y}, {pos.Z} against restrictions (x: {minX} - {maxX}, z: {minZ} - {maxZ}) - withinX: {withinX}, withinZ: {withinZ}");
             if (!withinX || !withinZ)
             {
                 Block nextBlock = __instance.Api.World.GetBlock(__instance.Block?.CodeWithVariant("state", "empty"));
