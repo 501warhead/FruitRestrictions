@@ -3,6 +3,7 @@
     "type": "Code",
     "modid": "fruitrestrictions",
     "name": "FruitRestrictions",
+    "side": "server",
     "authors": [
         "501warhead"
     ],
